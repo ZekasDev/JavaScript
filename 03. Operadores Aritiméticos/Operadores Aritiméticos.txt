@@ -1,0 +1,7 @@
+Adição (+) // Soma valores (lembrar que pode ser usado para concatenação)
+Subtração (-) // Diferença entre valores
+Multiplicação (*) // Produto dos valores
+Divisão (/) // Quociente dos valores
+Módulo (%) // Resto existente em uma operação de Divisão
+Incremento (++) // Pré/pós Incremento
+Decremento (--) // Pré/pós Decremento
