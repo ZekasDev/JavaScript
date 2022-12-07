@@ -5,7 +5,7 @@ function acionaCampo() {
 function validaCampo() {
   var valorCampo = document.getElementById("campo").value;
 
-  if (valorCampo.length < 3) {
+  if (valorCampo.length <= 3) {
     document.getElementById("campo").style.background = "red";
   } else {
     document.getElementById("campo").style.background = "green";
