@@ -7,7 +7,7 @@ function distribuiCaractere() {
 
   //limpar espaços em branco nas extremidades da string
   caractere.trim();
-
+ 
   switch (caractere) {
     case "0":
     case "1":
