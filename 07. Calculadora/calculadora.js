@@ -1,6 +1,6 @@
 function calcular(tipo, valor) {
     if(tipo === 'acao' ) {
-
+            
         if(valor === 'c') {
             //limpar o visor
             document.getElementById('resultado').value = ''
