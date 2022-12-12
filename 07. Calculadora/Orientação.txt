@@ -1,0 +1,18 @@
+- Usuario vai clicando nos números
+// concatenando os valores ATÉ o usuário clicar no OPERADOR matemático
+- Usuário clica no Operador Matemático
+// seleciona o OPERADOR matemático do usuário
+- Usuário vai clicando nos números
+// concatenando os valores ATÉ o usuário clicar nos OPERADORES:
+    //realizar a operação desejada entre NUM1, OPER, NUM2 e disponibilizar no display 
+      o resultado
+      SE User digitar qqr outro numero SEM clicar em outro operador, o numero substituirá
+      a string RESULTADO no DISPLAY (como se fosse o primeiro passo)
+      SE User clicar em Operador MAT, substituir  o RESULTADO ANTERIOR pelo NUM1 e aguardará
+      a próxima interação de Operador Matemático.
+      SE User clicar em IGUAL, display RESULTADO       
+
+// transformar a primeira string concatenada em uma variável chamada NUMERO1
+// transformar a segunda string concatenada em uma variável chamada NUMERO2
+// realizar operação desejada entre NUMERO1 e NUMERO2
+// PRINTAR o resultado dentro do DISPLAY
