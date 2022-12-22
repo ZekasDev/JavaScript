@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <script>
+    let nome = "Daniel"; //document.getElementById('nome').value
+    let idade = 39;
+    let sexo = "Masculino";
+    let profissao = "Futuro Dev";
+
+    let objeto2 = {
+      nome,
+      idade,
+      sexo,
+      profissao,
+      exibirResumo() {
+        console.log(
+          `${this.nome}, ${this.idade} anos, ${this.sexo} é ${this.profissao}`
+        );
+      },
+    };
+
+    console.log(objeto2);
+    objeto2.exibirResumo();
+  </script>
+  <body></body>
+</html>
